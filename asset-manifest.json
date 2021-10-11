@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CamiKubaSilva/dark/static/css/main.f8443598.chunk.css",
+    "main.js": "/CamiKubaSilva/dark/static/js/main.cd927d37.chunk.js",
+    "main.js.map": "/CamiKubaSilva/dark/static/js/main.cd927d37.chunk.js.map",
+    "runtime-main.js": "/CamiKubaSilva/dark/static/js/runtime-main.272e7f15.js",
+    "runtime-main.js.map": "/CamiKubaSilva/dark/static/js/runtime-main.272e7f15.js.map",
+    "static/js/2.981f063d.chunk.js": "/CamiKubaSilva/dark/static/js/2.981f063d.chunk.js",
+    "static/js/2.981f063d.chunk.js.map": "/CamiKubaSilva/dark/static/js/2.981f063d.chunk.js.map",
+    "index.html": "/CamiKubaSilva/dark/index.html",
+    "static/css/main.f8443598.chunk.css.map": "/CamiKubaSilva/dark/static/css/main.f8443598.chunk.css.map",
+    "static/js/2.981f063d.chunk.js.LICENSE.txt": "/CamiKubaSilva/dark/static/js/2.981f063d.chunk.js.LICENSE.txt",
+    "static/media/moon.e5585e50.png": "/CamiKubaSilva/dark/static/media/moon.e5585e50.png",
+    "static/media/App.scss": "/CamiKubaSilva/dark/static/media/sun.6d48da50.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.272e7f15.js",
+    "static/js/2.981f063d.chunk.js",
+    "static/css/main.f8443598.chunk.css",
+    "static/js/main.cd927d37.chunk.js"
+  ]
+}
