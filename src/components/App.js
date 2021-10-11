@@ -1,23 +1,27 @@
-import React, { useState } from "react";
-import "./App.css";
+import React, { useEffect, useState } from "react";
+import Moon from "../assets/moon.png";
+import Sun from "../assets/sun.png";
+import "./App.scss";
 
 export default function App() {
-  const [state, setState] = useState(true);
+  let css = "container";
+  let css2 = "container2"
+  const [state, setState] = useState({css: css, img: Moon});
 
-  function handleChange(state) {
-    setState(false);
-    if (!state) {
-      setState(true);
+  function handleChange() {
+    if (state.css === "container") {
+      setState({css: css2, img: Sun});
+    } else if(state.css === "container2") {
+      setState({css: css, img: Moon});
     }
   }
 
   return (
-    <div className="container">
+    <div className={state.css}>
+      <div className="containerIntro">
       <div className="header">
         <h1>Dark Mode Challenge</h1>
-        <div type="button" className="imageContainer" onClick={handleChange}>
-          <div className="moon" />
-        </div>
+        <img src={state.img} className="Moon" onClick={handleChange}></img>
       </div>
       <div className="text">
         <p>
@@ -49,6 +53,7 @@ export default function App() {
         <button className="red">Exit</button>
         <button className="green">Save</button>
       </div>
+    </div>
     </div>
   );
 }
